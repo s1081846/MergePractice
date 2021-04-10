@@ -1,0 +1,38 @@
+div{
+    width: 350px;
+    height: 200px;
+    margin: 100px 0px 0px 100px;
+    background-color: orange;
+    border-radius: 50% 90% 30% 30% ;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: -40px 0px 0px 115px;
+}
+
+img{
+    -webkit-animation: 'rotate1'3s linear infinite;
+    animation: 'rotate1' 3s linear infinite;
+}
+
+#eyes{
+    border-radius: 50% ;
+    width: 30px;
+    height: 25px;
+    position: relative;
+    top:70px;
+    left:160px;
+    background-color:black;
+}
+
+@-webkit-keyframes rotate1{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes rotate1{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
